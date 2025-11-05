@@ -24,7 +24,7 @@ Test the C Program for the desired output.
 # PROGRAM:
 
 ## 1. C Program to create new process using Linux API system calls fork() and getpid() , getppid() and to print process ID and parent Process ID using Linux API system calls
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -42,7 +42,7 @@ int main() {
     }
 }
 
-
+```
 
 
 ## OUTPUT
@@ -92,7 +92,7 @@ printf("Running ps with execlp. Now with path specified\n");
 
 
 ## 3. C Program to execute Linux system commands using Linux API system calls exec() family
-
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <sys/types.h>
@@ -133,7 +133,7 @@ int main() {
     printf("Done.\n");
     return 0;
 }
-
+```
 ## OUTPUT
 
 <img width="682" height="422" alt="Screenshot 2025-09-24 103750" src="https://github.com/user-attachments/assets/9785f406-e5b1-4ad7-9049-a2c7a72f3177" />
